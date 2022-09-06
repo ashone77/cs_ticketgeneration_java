@@ -1,0 +1,15 @@
+PNR				:	DB_2022-9-10_103
+TrainNo			:	1002
+Train Name		:	Shatabdi Express
+From			:	Delhi
+To				:	Bangalore
+Travel Date		:	10/9/2022
+
+Passengers:
+---------------------------------------------------------
+Name		Age		Gender		Fair
+---------------------------------------------------------
+Haritha		20		Female		2500.0
+Gopika		12		Female		1250.0
+
+Total Price: 3750.0
