@@ -4,7 +4,7 @@ import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
-public class Ticketbook {
+public class TicketBook {
     public static void main(String[] args) throws ParseException{
 
         Ticket ticket;
@@ -13,7 +13,7 @@ public class Ticketbook {
 
         System.out.println("Enter the Train Number");
         int trainNumber = scannerNumber.nextInt();
-        Train train = Traininsertion.findTrain(trainNumber);
+        Train train = TrainInsertion.findTrain(trainNumber);
         if(train==null) {
             System.out.println("Train with given train number does not exist");
             System.exit(0);
@@ -41,7 +41,7 @@ public class Ticketbook {
             String passenger_gender = scannerNumber.next();
 
             Passenger p = new Passenger(passenger_name,passenger_age,passenger_gender);
-            Passengerinsertion pi = new Passengerinsertion();
+            PassengerInsert pi = new PassengerInsert();
             pi.insertIntoPassengers(p);
 
             ticket = new Ticket(TravelDate,train);

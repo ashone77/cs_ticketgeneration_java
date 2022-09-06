@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 
-public class Passengerinsertion {
+public class PassengerInsert {
     private DBConnection db = new DBConnection();
 
     public void insertIntoPassengers(Passenger p) {

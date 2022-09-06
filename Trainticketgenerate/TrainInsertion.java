@@ -4,7 +4,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class Traininsertion {
+public class TrainInsertion {
     public static Train findTrain(int train) {
         Train tr = null;
        DBConnection db = new DBConnection();
