@@ -1,4 +1,4 @@
-package Trainticketgenerate;
+package TrainTicketBooking;
 
 public class Passenger {
     private String passenger_name;

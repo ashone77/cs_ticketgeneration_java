@@ -1,4 +1,4 @@
-package Trainticketgenerate;
+package TrainTicketBooking;
 
 import java.io.FileWriter;
 import java.io.IOException;

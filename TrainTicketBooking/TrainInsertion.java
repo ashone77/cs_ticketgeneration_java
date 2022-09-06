@@ -1,4 +1,4 @@
-package Trainticketgenerate;
+package TrainTicketBooking;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

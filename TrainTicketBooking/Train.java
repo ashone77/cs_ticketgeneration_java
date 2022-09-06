@@ -1,4 +1,4 @@
-package Trainticketgenerate;
+package TrainTicketBooking;
 
 public class Train {
 
